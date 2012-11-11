@@ -1,0 +1,88 @@
+[11/11/2012]
+     Released.: Version 0.6.0
+     Added....: Dependency Installers for Debian & Ubuntu
+     Added....: Git Support for DNSRecon
+     Added....: Git Support for PushPin
+     Added....: Default Configuration Check
+     Modified.: Updated SSLyze to Use New Git Repository
+     Modified.: Updated Burp Free to Version 1.5
+     Modified.: Configuration Export Function
+     Modified.: Requirements Check
+     Modified.: Cosmetics
+
+[10/25/2012]
+     Released.: Version 0.5.2
+     Fixed....: Updated Metasploit4 to Use New Git Repository
+     Fixed....: Fixed Configuration Format from Export
+
+[10/03/2012]
+     Released.: Version 0.5.1
+     Modified.: Removed Redundant Function Call
+
+[08/01/2012]
+     Released.: Version 0.5.0
+     Added....: SVN Support for Artillery
+     Added....: Print Config Switch (-c)
+     Added....: Export Config Switch (-e)
+     Added....: Print Statistics Switch (-s)
+     Added....: Debug Capability (Comment scr_com Variable)
+     Fixed....: Install Output for WPScan and SET
+     Modified.: Minor Cosmetic and Comment Updates
+
+[07/23/2012]
+     Released.: Version 0.4.3
+     Fixed....: Issues Updating WPScan with New Git Repository
+
+[07/23/2012]
+     Released.: Version 0.4.2
+     Fixed....: Updated SET to New SVN Repository
+     Fixed....: Updated WPScan to New Git Repository
+
+[07/14/2012]
+     Released.: Version 0.4.1
+     Fixed....: Issue Where Job Monitor Function Hangs
+     Fixed....: Updated Default Configuration Variables
+
+[07/14/2012]
+     Released.: Version 0.4.0
+     Added....: SVN Support for SSLyze
+     Added....: SVN Support for DNSEnum
+     Added....: Multi-Process Jobs for SCM Sources/Tools
+     Added....: Script Requirements Check
+     Fixed....: Updated Kismet to Use New Git Repository
+     Modified.: Function Optimizations
+     Modified.: Massive Interface Updates
+
+[07/11/2012]
+     Modified.: Moved Source to Git Repository
+
+[06/28/2012]
+     Released.: Version 0.3.0
+     Added....: SVN Support for WPScan
+     Added....: SVN Support for Reaver
+     Added....: Support for BurpSuite-1.4.01
+     Fixed....: Issue With Line Endings
+     Fixed....: Issue Where Parent Directories Weren't Being Created
+     Modified.: Updated SQLMap to Use New Git Repository
+     Modified.: Commment Updates
+
+[06/19/2012]
+     Released.: Version 0.2.0
+     Added....: SVN Support for AirCrack-NG
+     Added....: GIT Support for Arachni
+     Added....: SVN Support for Kismet
+     Added....: SVN Support for Nmap
+     Added....: SVN Support for ZAP
+     Added....: GIT Support for BeEF
+     Added....: SVN Support for Metasploit2
+     Added....: SVN Support for Metasploit3
+     Added....: SVN Support for SET
+     Added....: SVN Support for SQLMap
+     Added....: SVN Support for SQLNinja
+     Added....: SVN Support for W3af
+     Added....: Support for Crunch-3.2
+     Added....: Support for Hydra-7.3
+     Added....: Support for Fierce-0.9.9
+     Added....: Switch to Install Sources & Tools (-i)
+     Added....: Switch to Update Version Controlled Source & Tools (-u)
+     Added....: Switch to Show PenKit Version (-v)
