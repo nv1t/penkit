@@ -1,3 +1,8 @@
+[11/16/2012]
+     Released.: Version 0.6.1
+     Fixed....: Added update-alternatives to Dependencies Function
+     Modified.: Cosmetics
+
 [11/11/2012]
      Released.: Version 0.6.0
      Added....: Dependency Installers for Debian & Ubuntu

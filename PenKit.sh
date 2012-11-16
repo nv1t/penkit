@@ -27,7 +27,7 @@
 #                                                     DNSEnum
 #                                                     DNSRecon
 #                                                     Metasploit2
-#                                                     Metasploit3
+#                                                     Metasploit4
 #                                                     PushPin
 #                                                     SET
 #                                                     SQLMap
@@ -91,7 +91,7 @@ req_utl='unzip git svn screen wget'
 func_title(){
   clear
   echo '=========================================================================='
-  echo ' PenKit.sh | [Version]: 0.6.0 | [Updated]: 11.11.2012'
+  echo ' PenKit.sh | [Version]: 0.6.1 | [Updated]: 11.11.2012'
   echo '=========================================================================='
   echo ' [By]: Michael Wright (@TheMightyShiv) | https://github.com/TheMightyShiv'
   echo '=========================================================================='
@@ -140,7 +140,7 @@ func_dependencies(){
   echo '[ Supported Operating Systems ]'
   echo
   echo ' [1] Debian 7+'
-  echo ' [2] Ubuntu 12.'
+  echo ' [2] Ubuntu 12.x'
   echo
   read -p '[>] Enter Your OS Version (1-2): ' os
   #===================================================================================
@@ -174,6 +174,9 @@ func_dependencies(){
       graphviz python-gtk2 python-gtksourceview2 libcanberra-gtk-module
 
       easy_install pybloomfiltermmap
+
+      update-alternatives --set ruby /usr/bin/ruby1.9.1
+      update-alternatives --set gem /usr/bin/gem1.9.1
 
       gem install bundler rspec pg
       ;;
